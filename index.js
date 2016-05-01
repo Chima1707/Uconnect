@@ -6,7 +6,7 @@ var Hapi = require('hapi');
 // Create a server with a host and port
 var server = new Hapi.Server();
 
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8000
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
 
 server.connection({ 
@@ -14,11 +14,6 @@ server.connection({
     port: server_port 
 });
 
-server.register([require('vision'), require('inert'),require('lout')], function (err) {
-        
-    if (err) {
-        throw err;
-    }
 
    server.route(require('./lib/routes.js'))
 
@@ -32,4 +27,3 @@ server.register([require('vision'), require('inert'),require('lout')], function 
     
   });
  
-});
