@@ -1,3 +1,4 @@
+#!/bin/env node
 'use strict';
 
 var Hapi = require('hapi');
@@ -28,4 +29,3 @@ server.register([require('vision'), require('inert'),require('lout')], function 
   });
  
 });
-
