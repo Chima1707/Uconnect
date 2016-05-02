@@ -19,9 +19,9 @@
     "grunt-nodemon": "^0.4.1"
   },
   "dependencies": {
-     "hapi": "9.5.1",
-     "boom": "^2.5.x",
-     "joi": "^6.8.1"
+    "boom": "^2.5.x",
+    "hapi": "9.5.1",
+    "joi": "^6.8.1",
+    "node-uuid": "1.4.7"
   }
-
 }
