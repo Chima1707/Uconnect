@@ -1,19 +1,4 @@
 [
     
-       {
-        "id": 3055,
-        "firstName": "Lavonne",
-        "lastName": "Hill",
-        "state": "California",
-        "area": "Crown",
-        "email": "lavonnehill@goko.com",
-        "phoneNumber": "(813) 593-3399",
-        "userName": "Patrica",
-        "password": "fugiat",
-        "isActive": false,
-        "gender": "female",
-        "picture": "http://placehold.it/32x32",
-        "status": "Blocked"
-    }
     
 ]
