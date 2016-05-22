@@ -1,4 +1,20 @@
 [
-    
-    
+    {
+        "username": "chima",
+        "email": "chima123@gmail.com",
+        "firstName": "Chima",
+        "lastName": "Alaebo",
+        "area": "ikeja",
+        "id": "bfeefcd8-cac1-4f75-b776-71a3bd46006e"
+    },
+    {
+        "username": "chima",
+        "firstName": "Chima",
+        "lastName": "Alaebo",
+        "area": "ikeja",
+        "password": "mmmmmm",
+        "email": "chima123@yahoo.com",
+        "phone": "08060880402",
+        "id": "c086cd84-0360-40bc-beb8-89f292dedb2e"
+    }
 ]
