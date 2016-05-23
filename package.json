@@ -22,12 +22,12 @@
     "boom": "2.9.0",
     "hoek": "2.16.3",
     "hapi": "9.5.1",
-    "hapi-auth-jwt2": "7.0.0",
+    "hapi-auth-jwt2": "5.0.1",
     "joi": "6.8.1",
     "node-uuid": "1.4.7",
     "lout": "7.2.0",
     "inert": "3.0.0",
     "vision": "2.0.0",
-    "jsonwebtoken": "7.0.0"
+    "jsonwebtoken": "5.0.4"
   }
 }
